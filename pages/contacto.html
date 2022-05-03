@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--link fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Link Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500&display=swap" rel="stylesheet">
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+            <!-- Sección de Logo y Barra de Navegación -->
+            <nav class="barraNavegacion">
+                <div class="itemsNav__logo">
+                    <a href="index.html"><img src="/multimedia/logo.JPEG" alt="logo"></a>
+                </div>
+                <div data-aos="fade-left">
+                <div class="itemsNav">
+                    <a class="itemsNav__boton "  href="/index.html">HOME</a>
+                    <a class="itemsNav__boton" href="/pages/galeria.html">GALERIA</a>
+                    <a class="itemsNav__boton" href="/pages/contacto.html">CONTACTO</a>
+                    <a class="itemsNav__boton" href="/pages/producciones.html">PRODUCCIONES</a>
+                </div>
+            </div>
+            </nav>
+            <!--Fin de Logo y Barra de Navegación-->
+    <!--FORMULARIO-->
+    <body id="fondoContac">
+        <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+    <section class="formContainer">
+        <h2 class="formContainer__title"> CONTACTANOS </h2>
+        <form action="#" class="form">
+            
+            <label for="nombre" class="form__label">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form__imput">
+
+            <label for="apellido" class="form__label">Apellido</label>
+            <input type="text" name="apellido" id="apellido" class="form__imput">
+
+
+            <label for="telefono" class="form__label">Telefono</label>
+            <input type="tel" name="tel" id="tel" class="form__imput">
+
+            <label for="mail" class="form__label">Mail</label>
+            <input type="mail" name="mail" id="mail" class="form__imput">
+
+            <label for="mensaje" class="form__label">Mensaje...</label>
+            <textarea name="mensaje" id="mensaje" class="form__textarea"></textarea>
+
+            <input type="submit" class="form__imput form__imput--sumbit">
+        </form>
+    </section>
+    </div>
+            <!-- Acá Comienza el Footer-->
+            <footer class="pieDePagina">
+                <div class="">
+                    <p>todos los derechos reservados por copyrigth</p>
+                    <a href="https://www.youtube.com/c/WERENPROD"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://open.spotify.com/artist/0YUiNv0j4DfzAAr1FfRNT7?si=FCBhce2STOOEFpL98xtLRw"><i
+                            class="fa-brands fa-spotify"></i></a>
+                    <a href="https://instagram.com/online.weren?igshid=YmMyMTA2M2Y="><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+            </footer>
+            <a href="#" class="subir"><i class="fa-solid fa-angle-up"></i></a>
+    
+            <!-- fin del footer -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+</body>
+
+</html>
