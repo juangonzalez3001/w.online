@@ -9,6 +9,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: black;
+    
 }
 
 /* Barra de navegacion  */
@@ -354,4 +355,54 @@ footer i {
 }
 h2{
     color: aliceblue;
+    letter-spacing: 3rem;
+}
+
+/*nueva barra nav*/
+.navbar{
+    background-image: url(./multimedia/2.jpg);
+    background-size: auto;
+    background-position: center;
+}
+#navbar a{
+color: blanchedalmond;
+
+}
+.jumbotron{
+    height: 2 50px;
+    width: 100%;
+    border-radius: 0%;
+    margin-bottom: 0%;
+    background-image: url(/multimedia/2.jpg);
+    background-size:contain;
+    background-position: center;
+}
+.jumbotron h1{
+    color: rgba(224, 242, 231, 0.796);
+    font-size: 60px;
+    text-align: center;
+    font-size: 5rem;
+    
+}
+.jumbotron p{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+}
+#botonInicio{
+    align-items: center;
+    background-color: aliceblue;
+} 
+.contenedorCarusel{
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 0%;
+}
+.contenedor__menuIzquierdo{
+    background-color: #000;
+}
+.imginc{
+    align-items: center;
 }
