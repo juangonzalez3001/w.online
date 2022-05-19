@@ -363,6 +363,8 @@ h2{
     background-image: url(./multimedia/2.jpg);
     background-size: auto;
     background-position: center;
+    height: auto;
+    width: 30%;
 }
 #navbar a{
 color: blanchedalmond;

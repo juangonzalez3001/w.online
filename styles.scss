@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+nav{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+
+    .rounded-circle{
+        height: 30px;
+        align-items: center;
+    }
+    .nav-link{
+        letter-spacing: 2rem;
+    }
+}
+li{
+    text-align: justify;
+    font-size: 50px;
+}
+
+.navbar-toggler{
+    border-radius: 3px;
+}
