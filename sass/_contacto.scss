@@ -1,0 +1,64 @@
+.formContainer {
+    width: 75%;
+    margin: 3rem auto;
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 3px -5px 3px 0px rgba(13, 54, 3, 0.75);
+    box-shadow: 3px -5px 3px 0px rgba(13, 54, 3, 0.75);
+}
+
+.formContainer__title {
+    color: white;
+    font-size: 2rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__label {
+    display: inline-block;
+    width: 60%;
+    color: white;
+    text-align: left;
+    font-weight: 400;
+}
+
+.form__imput,
+.form__textarea {
+    width: 60%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: solid 1px #5e1b1b;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5rem;
+}
+
+.form__textarea {
+    height: auto;
+    resize: none;
+}
+
+.form__imput:focus,
+.form__textarea:focus {
+    outline: none;
+}
+
+.form__imput--sumbit {
+    background-color: rgba(13, 54, 3, 0.75);
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: none;
+}
+
+.form__imput--sumbit:hov {
+    background-color: rgba(30, 109, 10, 0.75);
+}

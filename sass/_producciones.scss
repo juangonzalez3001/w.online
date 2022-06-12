@@ -1,0 +1,47 @@
+.jumbotronProd{
+    background-image: url(/multimedia/fondojumbotron.jpg);
+    height: 10px;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color: rgba(224, 242, 231, 0.796);
+        font-size: 160px;
+        text-align: center;
+        font-size: 5rem;
+        align-items: center;
+    }
+    p{
+        text-align: center;
+        color: beige;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+} 
+
+.formatoVideos, li {
+    list-style: none;
+    display: inline-block;
+    color: darkcyan;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 2rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.produs {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 2rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}

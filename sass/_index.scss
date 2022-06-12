@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+body{
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+nav{
+    background-color: black;
+    text-align: center;
+    background-size: auto;
+    background-position: center;
+    height: auto;
+    width: auto;
+    display: flex;
+    font-size: small;
+    .navbar-nav{
+        color: blanchedalmond;
+    }
+    .rounded-circle{
+        height: 30px;
+        align-items: center;
+    }
+}
+//titulos 
+.jumbotron {
+    background-image: url(/multimedia/fondojumbotron.jpg);
+    height: 100vh;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color: rgba(224, 242, 231, 0.796);
+        font-size: 160px;
+        text-align: center;
+        font-size: 5rem;
+        align-items: center;
+    }
+    p{
+        text-align: center;
+        color: beige;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+} 
+footer{
+    background-color: black;
+    text-transform: uppercase;
+    padding: 25px;
+    color: blanchedalmond;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    i{
+        font-size: 45px;
+        color: blanchedalmond;
+        margin-bottom: 15px;
+        letter-spacing: 3rem;
+    }
+}
+
