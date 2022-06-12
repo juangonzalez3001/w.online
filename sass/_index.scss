@@ -27,11 +27,16 @@ nav{
 }
 //titulos 
 .jumbotron {
-    background-color: aqua);
+    background-image: url(/multimedia/fondojumbotron.jpg);
     height: 100vh;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     h1{
         color: rgba(224, 242, 231, 0.796);
-        font-size: 60px;
+        font-size: 160px;
         text-align: center;
         font-size: 5rem;
         align-items: center;
@@ -57,3 +62,4 @@ footer{
         letter-spacing: 3rem;
     }
 }
+
